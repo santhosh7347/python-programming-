@@ -1,0 +1,6 @@
+pin1=7347
+pin2=int(input("Enter your pin code:"))
+if pin1==pin2:
+ print("Please Continue the transaction...")
+else:
+ print("Invalid pincode please check again...")
