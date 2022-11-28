@@ -1,0 +1,7 @@
+amount=int(input("Enter amount:"))
+Balance=5000
+if amount>Balance:
+ print("Insufficient Balance")
+else:
+ print("Your account is credited amount of=",amount)
+ print("Remaining Balance=",Balance-amount)
