@@ -1,0 +1,19 @@
+Empno=int(input("Enter Employee no:"))
+Empname=input("Enter Name of Employee:")
+EmpDesign=input("Enter Employee Designation:")
+EmpDA=int(input("Enter Employee Daily allowances:"))
+EmpTA=int(input("Enter Employee Traveling allowances:"))
+EmpHRA=int(input("Enter employee House rent:"))
+Empbasic=int(input("Enter Employee Basic salary:"))
+netsalary=Empbasic+EmpDA+EmpTA+EmpHRA
+if netsalary >100000:
+   tax=netsalary*10/100
+if netsalary >50000:
+   tax=netsalary*7/100
+if netsalary >40000:
+   tax=netsalary*4/100
+if netsalary >20000:
+   tax=netsalary*2/100
+if netsalary<20000:
+   tax=0
+print("Tax=",tax)
