@@ -1,0 +1,33 @@
+Cusphno=int(input('Enter Customer phone number:'))
+name=input('Enter Customer name:')
+Address=input('Enter Customer Address:')
+a=int(input('Enter rice quantity:'))
+b=int(input('Enter Oil quantity:'))
+c=int(input('Enter salt quantity:'))
+d=int(input('Enter Dal  quantity:'))
+e=int(input('Enter Sugar quantity:'))
+r=75
+Oil=150
+salt=30
+Dal=120
+Sugar=55
+total=(a*r)+(b*Oil)+(c*salt)+(d*Dal)+(e*Sugar)
+if total>3000:
+   tax=total*5/100
+if total>2000:
+   tax=total*7/100
+if total>1000:
+   tax=total*10/100
+if total>500:
+   tax=total*15/100
+Bill=total+tax
+print('CUSTOMER PHNO:',Cusphno)
+print('CUSTOMER NAME:',name)
+print('CUSTOMER ADDRESS:',Address)
+print('Tax:',tax)
+print('TOTAL BILL',Bill)
+  
+
+
+  
+    
