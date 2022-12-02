@@ -1,0 +1,36 @@
+#Way 1:
+def big(a,b):
+ if a>b:
+  print('A is Big:')
+ else:
+  print('B is Big:')
+a=int(input('Enter a value:'))
+b=int(input('Enter b value:'))
+big(a,b)
+
+#way2:
+def big(a,b):
+ if a>b:
+    return 'A is Big'
+ else:
+    return 'B is big'
+a=int(input('Enter a value:'))
+b=int(input('Enter b value:'))
+big(a,b)
+print (big(a,b))
+  
+
+#way3:
+def big(a,b):
+ if a>b:
+    return a is Big
+ else:
+    return b is big
+a=int(input('Enter a value:'))
+b=int(input('Enter b value:'))
+big(a,b)
+if (big(a,b)):
+   print ('A is Big:')
+else:
+   print ('B is Big:')
+  
