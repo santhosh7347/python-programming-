@@ -1,0 +1,30 @@
+#way1:
+def eligible(age):
+ if age>18:
+    print ('Yes')
+ else:
+    print('No')
+age=int(input('Enter age value:'))
+eligible(age)
+  
+#way2:
+def eligible(age):
+ if age>18:
+    return 'Yes'
+ else:
+    return'No'
+age=int(input('Enter age value:'))
+print (eligible(age))
+  
+#way3:
+def eligible(age):
+ if age>18:
+    return yes
+ else:
+    return no
+age=int(input('Enter age value:'))
+if(eligible(age)):
+  print('yes')
+else:
+  print('no')
+  
