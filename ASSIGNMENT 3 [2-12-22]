@@ -1,0 +1,30 @@
+ #way1:
+def leap(year):
+ if year%4==0 and year%100!=0:
+   print('Yes')
+ else:
+   print('Not')
+year=int(input('Enter year:'))
+leap(year)
+
+#way2:
+def leap(year):
+ if year%4==0 and year%100!=0:
+   return 'Yes'
+ else:
+   return 'Not'
+year=int(input('Enter year:'))
+print(leap(year))
+
+
+#way3:
+def leap(year):
+ if year%4==0 and year%100!=0:
+   return Yes
+ else:
+   return Not
+year=int(input('Enter year:'))
+if(leap(year)):
+  print('Yes')
+else:
+  print('Not')
