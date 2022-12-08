@@ -1,0 +1,6 @@
+r=int(input('Enter r value:'))
+c=int(input('Enter c value:'))
+for i in range(r+1):
+  for j in range(i+1):
+    print ('*',end=' ')
+  print ()
