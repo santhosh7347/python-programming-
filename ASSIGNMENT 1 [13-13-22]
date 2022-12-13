@@ -1,0 +1,4 @@
+ap=input('enter string')
+list=ap.split() 
+list.sort()
+print('the sorted list',list)
