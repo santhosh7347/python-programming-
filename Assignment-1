@@ -1,0 +1,5 @@
+string=input("Enter a num or letter:")
+if(string==string[::-1]):
+    print("The value is palindrom")
+else:
+    print("The value is not palindrom")
